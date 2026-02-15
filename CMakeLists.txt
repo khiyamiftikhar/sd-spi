@@ -1,0 +1,15 @@
+idf_component_register(
+    SRCS
+        "src/sd_card.c"
+        "src/sys/sd_sys.c"
+        "src/sd_mount.c"
+    INCLUDE_DIRS
+        "include"
+    PRIV_INCLUDE_DIRS
+        "src/sys"
+    PRIV_REQUIRES
+        fatfs
+        vfs
+        sdmmc
+        driver
+)
