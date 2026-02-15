@@ -1,6 +1,6 @@
 idf_component_register(
     SRCS
-        "src/sd_card.c"
+        "src/sd_mount.c"
     INCLUDE_DIRS
         "include"
     PRIV_REQUIRES
